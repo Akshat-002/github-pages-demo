@@ -2,13 +2,11 @@ name: Build & Deploy
 
 on:
   push:
-   branches:
-    - develop
-    - release
-
+    branches:
+      - main
+      
 env:
   CI: false
-
 
 jobs:
   build:
